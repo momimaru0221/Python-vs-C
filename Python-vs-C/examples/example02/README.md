@@ -11,6 +11,7 @@ int integerVar = 42;
 float floatVar = 3.14;
 char charVar = 'A';
 const char *stringVar = "Hello, C!";
+```
 
 C言語の型宣言は、プログラマーにメモリ管理の直接的な制御を与え、ハードウェアレベルでの最適化を可能にします。
 
@@ -18,12 +19,13 @@ C言語の型宣言は、プログラマーにメモリ管理の直接的な制�
 
 Pythonでは、動的型付けが採用されており、変数の型は実行時に決定されます。これは開発者が迅速に開発を進めることを可能にし、プロトタイピングやスクリプト作成を容易にします。Pythonでは、変数には型宣言が不要で、異なる型の値を自由に割り当てることができます。
 
-python
-Copy code
+```python
 integerVar = 42
 floatVar = 3.14
 charVar = 'A'
 stringVar = "Hello, Python!"
+```
+
 Pythonの柔軟性は、高レベルの抽象化と組み込みの型推論により支えられていますが、これはC言語での明示的なメモリ管理とは対照的です。
 
 ## C言語からPythonへの視点
